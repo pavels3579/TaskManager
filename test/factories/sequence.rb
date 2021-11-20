@@ -14,4 +14,8 @@ FactoryBot.define do
   sequence :expired_at do
     Time.now + 2.days
   end
+
+  sequence :email do |n|
+    "user#{n}@example.com"
+  end
 end
