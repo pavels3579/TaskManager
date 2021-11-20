@@ -1,24 +1,13 @@
-# README
+# Task manager
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Run tests
 
-Things you may want to cover:
+```
+bin/rails test
+```
 
-* Ruby version
+## Run rubocop
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+bundle exec rubocop -a
+```
