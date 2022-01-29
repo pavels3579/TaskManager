@@ -1,6 +1,11 @@
 require 'test_helper'
 
 class Web::DevelopersControllerTest < ActionController::TestCase
+  setup do
+    developer = create(:developer)
+    sign_in developer
+  end
+
   test 'should get new' do
     get :new
     assert_response :success
